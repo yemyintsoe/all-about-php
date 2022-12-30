@@ -1,0 +1,7 @@
+$dsn = "mysql:host=localhost;dbname=testdb";
+$user = "root";
+$pass = "";
+
+$pdo = new PDO($dsn, $user, $pass);
+
+refs: https://zetcode.com/php/pdo/
